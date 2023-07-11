@@ -1,0 +1,19 @@
+{
+  "name": "ai-chatbot-discord",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^2.6.1",
+    "ai": "^2.1.17",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
